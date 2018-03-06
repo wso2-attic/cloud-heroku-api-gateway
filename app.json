@@ -9,10 +9,10 @@
       "description": "Your credentials will be required for accessing the services in API Cloud which are required for the functionality of the On Premise Gateway."
     },
     "WSO2_CLOUD_PASSWORD": {
-      "description": "Please enter WSO2 Cloud Account password"
+      "description": "Please enter WSO2 Cloud Account password."
     },
     "WSO2_CLOUD_ORG_KEY": {
-      "description": "Please enter your Organization Key used in WSO2 API Cloud"
+      "description": "Please enter your Organization Key used in WSO2 API Cloud."
     }
   },
   "formation": {
