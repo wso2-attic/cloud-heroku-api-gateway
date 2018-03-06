@@ -1,0 +1,24 @@
+{
+  "name": "WSO2 API Microgateway",
+  "description": "Deploy your WSO2 API Microgateway on Heroku",
+  "repository": "https://github.com/NipunaPrashan/heroku.git",
+  "logo": "https://s3.amazonaws.com/wso2cloud-resources/images/api_cloud_logo.png",
+  "keywords": ["wso2", "api-gateway", "on-prem", "hybrid-cloud", "cloud", "api-management", "hybrid-api-management"],
+  "env": {
+    "WSO2_CLOUD_EMAIL": {
+      "description": "Your credentials will be required for accessing the services in API Cloud which are required for the functionality of the On Premise Gateway."
+    },
+    "WSO2_CLOUD_PASSWORD": {
+      "description": "Please enter WSO2 Cloud Account password."
+    },
+    "WSO2_CLOUD_ORG_KEY": {
+      "description": "Please enter your Organization Key used in WSO2 API Cloud."
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "standard-2x"
+    }
+  }
+}
