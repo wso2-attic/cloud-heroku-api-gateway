@@ -1,6 +1,6 @@
 {
-  "name": "WSO2 API Microgateway",
-  "description": "Deploy your WSO2 API Microgateway on Heroku",
+  "name": "WSO2 API Gateway",
+  "description": "Deploy your WSO2 API Gateway on Heroku",
   "repository": "https://github.com/wso2/cloud-heroku-microgateway.git",
   "logo": "https://s3.amazonaws.com/wso2cloud-resources/images/api_cloud_logo.png",
   "keywords": ["wso2", "api-gateway", "on-prem", "hybrid-cloud", "cloud", "api-management", "hybrid-api-management"],
