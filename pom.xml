@@ -30,7 +30,7 @@
                 <groupId>org.codehaus.mojo</groupId>
                 <executions>
                     <execution>
-                        <id>WSO2 API Microgateway</id>
+                        <id>WSO2 API Gateway</id>
                         <phase>generate-sources</phase>
                         <goals/>
                         <configuration/>
