@@ -52,5 +52,6 @@ up the API Gateway.
 
 For more information about WSO2 API Gateway, see these WSO2 documentations:
 
+- [WSO2 API Cloud](https://wso2.com/api-management/cloud/)
 - [Working with Hybrid API Management](https://docs.wso2.com/display/APICloud/Working+with+Hybrid+API+Management)
 - [WSO2 Cloud Blog](https://wso2.com/blogs/cloud/going-hybrid-on-premises-api-gateways/)
