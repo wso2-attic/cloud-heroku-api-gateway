@@ -50,4 +50,4 @@ if [ -f $DOWNLOAD_ZIP_FILE_NAME ]; then
     rm -rf $DOWNLOAD_ZIP_FILE_NAME
 fi
 
-sh $UNZIPPED_FILE_NAME/bin/configure-gateway.sh
+bash $UNZIPPED_FILE_NAME/bin/configure-gateway.sh
