@@ -17,9 +17,9 @@
 # under the License.
 # ----------------------------------------------------------------------------
 
-UNZIPPED_FILE_NAME=wso2am-2.1.0
-DOWNLOAD_ZIP_FILE_NAME=wso2am-2.1.0.zip
-ON_PREM_GATEWAY_DOWNLOAD_LINK=https://s3.amazonaws.com/wso2cloud-resources/on-premise-gateway/wso2am-2.1.0.zip
+UNZIPPED_FILE_NAME=wso2am-cloud-micro-gw-2.6.0
+DOWNLOAD_ZIP_FILE_NAME=wso2am-cloud-micro-gw-2.6.0.zip
+ON_PREM_GATEWAY_DOWNLOAD_LINK=https://s3.amazonaws.com/wso2cloud-resources/on-premise-gateway/wso2am-cloud-micro-gw-2.6.0.zip
 
 # Check for mandatory pre-requisites
 command -v wget >/dev/null 2>&1 || { echo >&2 "wget was not found. Please install wget first."; exit 1; }
