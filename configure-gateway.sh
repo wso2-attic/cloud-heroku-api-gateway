@@ -40,6 +40,7 @@ if [ ! -f $DOWNLOAD_ZIP_FILE_NAME ]
             unzip -q $DOWNLOAD_ZIP_FILE_NAME
 
             #Binding Heroku dynamic port to Axis2 synapse port.
+            sed -i 's/JVM_MEM_OPTS="-Xms256m -Xmx512m"/JVM_MEM_OPTS="-Xms256m -Xmx500m"/' $UNZIPPED_FILE_NAME/bin/wso2server.sh
             sed -i 's#AUTOSTART="${WSO2_CLOUD_AUTOSTART:-"false"}"#AUTOSTART="${WSO2_CLOUD_AUTOSTART:-"true"}"#' $UNZIPPED_FILE_NAME/bin/cloud-init.sh
 	    sed -i "s/8280/$PORT/" $UNZIPPED_FILE_NAME/repository/conf/axis2/axis2.xml
         fi
